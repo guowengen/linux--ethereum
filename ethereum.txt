@@ -1,0 +1,6 @@
+  compile:
+  go install -v ./...
+
+ ./geth --dev --datadir=./data
+ ./geth --dev --datadir=./data console
+ ./geth --dev --datadir --rpc --verbosity 3 =./data console
