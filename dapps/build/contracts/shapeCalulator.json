@@ -1,0 +1,35 @@
+{
+  "contract_name": "shapeCalulator",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "w",
+          "type": "uint256"
+        },
+        {
+          "name": "h",
+          "type": "uint256"
+        }
+      ],
+      "name": "rectangles",
+      "outputs": [
+        {
+          "name": "s",
+          "type": "uint256"
+        },
+        {
+          "name": "p",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052346000575b6088806100176000396000f300606060405263ffffffff60e060020a600035041663aa4f5ae781146022575b6000565b346000576032600435602435604b565b6040805192835260208301919091528051918290030190f35b8181026002838301025b92509290505600a165627a7a7230582077847ac26acfc072a19171cf6387792fa2884972311c6fabe7ee840b3a3d3c100029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1510317919879
+}
